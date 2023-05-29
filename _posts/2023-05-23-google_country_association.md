@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何修改谷歌账号的国家或地区
-tags: [Note]
+categories: [Note, Google]
 description: 避免数据“被送中”
 keywords: Google
 mermaid: false

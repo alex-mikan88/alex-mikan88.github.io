@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何部署基于 Docker 的为知笔记
-tags: [Note]
+categories: [Note, Docker]
 description: 10分钟搭建你专属的为知笔记
 keywords: Docker, Wiznote
 mermaid: false

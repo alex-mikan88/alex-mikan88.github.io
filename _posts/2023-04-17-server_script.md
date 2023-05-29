@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 自用服务器脚本
-tags: [Note]
+categories: [Note, VPS]
 description:  为了省事，经常会用到一些脚本，这边整理的就是常用的一些脚本。
 keywords: VPS
 mermaid: false
