@@ -12,8 +12,11 @@ mindmap: false
 mindmap2: false
 ---
 
+仅用10分钟，就能搭建专属于你的为知笔记~
+
 ## 准备：
-* 大陆地区服务器需要配置镜像源，创建或修改 /etc/docker/daemon.json 文件，修改为如下形式然后重启Docker 服务
+
+* 大陆地区服务器需要配置镜像源，创建或修改 /etc/docker/daemon.json 文件，修改为如下形式然后重启 Docker 服务
 
 ```json
 {
@@ -40,7 +43,7 @@ mkdir wizdata
 docker run --name wiz --restart=always -it -d -v  ~/wizdata:/wiz/storage -v  /etc/localtime:/etc/localtime -p 80:80 -p 9269:9269/udp  wiznote/wizserver
 ```
 
-* 第一次运行镜像，因为需要下载docker镜像，并且初始化数据，速度要慢一些。请耐心等待。在下载完成后，第一次启动镜像大概需要2-3分钟时间。
+* xxxxxxxxxx1 1echo "/swapfile swap swap defaults 0 0" >> /etc/fstabbash
 * 然后打开浏览器，在地址栏里面输入：`http://ip:80`，如果服务正常，则会出现下面的界面：
 
 
